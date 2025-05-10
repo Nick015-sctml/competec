@@ -1,0 +1,34 @@
+//import java.util.Scanner;
+//public class Main
+//{
+//	public static void main(String[] args) {
+//	    
+//	    Scanner entrada = new Scanner(System.in);
+//	    
+//	    System.out.println("está chovendo? ");
+//	    boolean c=entrada.nextBoolean();
+//	    
+//	    System.out.println("está relampejando? ");
+//	    boolean r=entrada.nextBoolean();
+	    
+	    System.out.println("Você vai sair hoje?");
+	    System.out.println(!(c&&r));
+	}
+}
+(import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    Scanner entrada = new Scanner(System.in);
+	    
+	    System.out.println("vai ter strogonoff? ");
+	    boolean c=entrada.nextBoolean();
+	    
+	    System.out.println("vai ter macarrão? ");
+	    boolean r=entrada.nextBoolean();
+	    
+	    System.out.println("Você vai ficar feliz hoje? ");
+	    System.out.println(c||r);
+	}
+}
